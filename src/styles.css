@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --blue: #1e90ff;
+  --grey: #cbd5e1;
+  --white: #ffffff;
+}
+
+main {
+  margin: 3rem;
+  padding: 2rem;
+  background-color: var(--blue);
+}
+#button-layout {
+  padding: 1rem;
+}
+.options {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  width: 5rem;
+  height: 3rem;
+  padding: auto;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+#displayRecommendations {
+  margin: 1rem;
+  padding: 1rem;
+  width: inherit;
+  height: inherit;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+.heading {
+  font-size: 1.3rem;
+}
+.description {
+}
